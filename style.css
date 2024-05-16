@@ -1,0 +1,70 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contanier {
+    width:350px;
+    height: 550px;
+    background-color: #142b3b;
+}
+
+.topSide {
+    width:100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.topDiv {
+    width: 90%;
+    height: 60%;
+    background-color: #5edbd2;
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    overflow: hidden;
+}
+
+span {
+    color: white;
+    font-size: 30px;
+}
+
+.bottomSide {
+    width:100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottomBox {
+    width: 317px;
+    height: 341px;
+    display: grid;
+    grid-template-columns: 85px 85px 85px 85px;
+    grid-template-rows: 70px 70px 70px 70px;
+}
+
+.numbers, .operator, #rightGlass, #leftGlass, #c, #clear, #equal {
+    width:60px;
+    height: 60px;
+    cursor: pointer;
+    border: none;
+    font-size: 20px;
+    color: #f0ddaa;
+}
+
+#clear, #c, #rightGlass, #leftGlass, #plus, #less, #multiplication, #separation {
+    background-color: #e42d40;
+}
+
+#point, .numbers, #equal {
+    background-color: #e47c5d;
+} 
